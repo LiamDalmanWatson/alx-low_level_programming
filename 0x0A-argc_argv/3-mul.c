@@ -16,10 +16,10 @@ int main(int argc, char **argv)
 	j = 0;
 	/*check that two arguments were passed*/
 	if (argc != 3)
-{
+	{
 		printf("Error\n"0);
-	return (1);
-}
+		return (1);
+	}
 	/*convert arguments to integers*/
 	i = atoi(argv[1]);
 	j = atoi(argv[2]);
