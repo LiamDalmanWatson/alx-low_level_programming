@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 #include "main.h"
 
 /**
@@ -16,8 +15,8 @@ int main(int argc, char **argv)
 	j = 0;
 	/*check that two arguments were passed*/
 	if (argc != 3)
-	{
-		printf("Error\n"0);
+	{	
+		printf("Error\n");
 		return (1);
 	}
 	/*convert arguments to integers*/
