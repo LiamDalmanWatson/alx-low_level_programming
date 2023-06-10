@@ -3,10 +3,10 @@
 #include "main.h"
 #include <ctype.h>
 /**
- * main - a program that adds positive numbers 
- * @argc - an array that contains the total number of arguments passed
- * @argv - an array that has the number of arguments passed
- * 
+ * main - a program that adds positive numbers
+ * @argc: number of command line arguments passed
+ * @argv: an array of pointers as arguments passed
+ *1
  * if no input is provided, print "0" followed by \n
  * if the input contains a non-digit print "Error" followed by \n
  * otherwise proceed to next step.
